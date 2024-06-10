@@ -2,8 +2,7 @@
 
 ## 1. Paper
 
-This repository contains the code for the following paper: "Papillary Thyroid Carcinoma Sematic Segmentation Using Multi-Scale Adaptive Convolutional Network with Dual Decoders"
-
+This repository contains the code for the following paper: 
 
 ## 2. Installation
 
