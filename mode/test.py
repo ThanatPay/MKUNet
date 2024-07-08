@@ -15,6 +15,11 @@ from tensorflow.keras.optimizers import Adam
 from utils.processing import create_dir,save_results
 from utils.metric import recall_m,jacard_coef_loss,iou_loss,focal_loss,ssim_loss,iou,dice_coef,dice_loss
 from voli.UNet import UNet
+from voli.UNet3p import UNet_3Plus
+from voli.BCDUNet import BCDUNet
+from voli.DBUNet import DBUNet
+from voli.MSAC_DBUNet import MSAC_DBUNet
+from voli.MSAC_DD import MSAC_DD
 
 H = 512
 W = 512

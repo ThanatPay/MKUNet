@@ -1,0 +1,2 @@
+- when you training model in train.py, you can set model in line 19 
+- if want to test in test.py, you can set model in line 36

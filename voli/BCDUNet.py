@@ -9,7 +9,7 @@ from keras.optimizers import *
 from keras.layers import *
 import numpy as np
 
-def BCDU_net_D1(input_size):
+def BCDUNet(input_size):
     N = input_size[0]
     inputs = Input(input_size)
     # e1
@@ -89,5 +89,5 @@ def BCDU_net_D1(input_size):
     model.compile(Adam(learning_rate=0.0001), loss = dice_loss, metrics=['accuracy',recall_m,jacard_coef_loss])
     return model
 
-# model = BCDU_net_D1((512,512,3))
+# model = BCDUNet((512,512,3))
 # model.summary()
